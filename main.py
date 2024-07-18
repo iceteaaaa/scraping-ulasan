@@ -108,7 +108,7 @@ def scraping_tokped(filter):
                 'waktu': date_mapping[i['reviewTime']],
                 'barang': i['product']['productName'],
                 'review': i['reviewText'],
-               # 'rating': i['rating'],
+                'rating': i['rating'],
                 }
                 result.append(data)
             
